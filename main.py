@@ -9,6 +9,9 @@ if __name__ == '__main__':
     # Chapter file folder name:
     chapter_folder = 'cogpsy'  # Add your folder name here
 
+    # Time limit per round, in seconds
+    time_limit = 10
+
     ##### MAIN CODE ####
 
-    start_game(chapters, chapter_folder)
+    start_game(chapters, chapter_folder, time_limit)

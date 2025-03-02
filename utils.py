@@ -14,7 +14,7 @@ def read_words_from_files(file_list):
 
 # Function to display a set of 7 random words
 def display_words():
-    global popup, timer_label, words
+    global popup, timer_label, words, time_limit
 
     if len(words) < 7:
         messagebox.showinfo("End", "Not enough words left to display.")
@@ -36,9 +36,10 @@ def display_words():
     else:
         # Create a custom popup window
         popup = tk.Toplevel()
-        popup.title("bootleg 39 seconds")
-        popup.configure(bg='#282c34')
-        popup.protocol("WM_DELETE_WINDOW", quit_game)  # Bind the close button to quit_game
+    
+    popup.title(f"bootleg {time_limit} seconds")
+    popup.configure(bg='#282c34')
+    popup.protocol("WM_DELETE_WINDOW", quit_game)  # Bind the close button to quit_game
 
     # Adjust label font size based on window size
     label_font = ("Helvetica", 20, "bold")
@@ -52,7 +53,7 @@ def display_words():
     timer_label.pack(expand=True)
 
     # Start the countdown timer
-    countdown(timer_label, 39)
+    countdown(timer_label, time_limit)
 
 def countdown(timer_label, remaining):
     if remaining <= 0:
@@ -65,6 +66,7 @@ def countdown(timer_label, remaining):
 def time_up_popup():
     global popup, timer_label
 
+    popup.title("Time's up!")
     # Add the "Time's up!" label at the bottom
     label = tk.Label(popup, text="Time's up!", font=("Helvetica", 20, "bold"), bg='#282c34', fg='#ff6f61', padx=20, pady=20)
     label.pack(side=tk.BOTTOM, expand=True)
@@ -82,15 +84,16 @@ def quit_game():
     root.destroy()
 
 def start_screen():
-    global popup
+    global popup, time_limit
 
     # Create a start screen popup window
     popup = tk.Toplevel()
     popup.title("Start Screen")
     popup.configure(bg='#282c34')
+    popup.protocol("WM_DELETE_WINDOW", quit_game)  # Bind the close button to quit_game
 
     # Add a welcome label
-    welcome_label = tk.Label(popup, text="Welcome to Bootleg 39 Seconds", font=("Helvetica", 20, "bold"), bg='#282c34', fg='#61dafb', padx=20, pady=20)
+    welcome_label = tk.Label(popup, text=f"Welcome to Bootleg {time_limit} Seconds", font=("Helvetica", 20, "bold"), bg='#282c34', fg='#61dafb', padx=20, pady=20)
     welcome_label.pack(expand=True)
 
     # Add a start button
@@ -102,8 +105,9 @@ def start_screen():
 def generate_file_list(chapters, chapter_folder):
     return [f'{chapter_folder}/chapter{chapter}.txt' for chapter in chapters]
 
-def start_game(chapters, chapter_folder):
-    global words, popup, root
+def start_game(chapters, chapter_folder, time):
+    global words, popup, root, time_limit
+    time_limit = time
     # Generate the list of files containing words
     file_list = generate_file_list(chapters, chapter_folder)
     # Read words from the files
