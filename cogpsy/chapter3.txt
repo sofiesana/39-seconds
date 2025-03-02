@@ -1,0 +1,48 @@
+cornea
+lens
+retina
+photoreceptors
+rods
+cones
+acuity
+fovea
+bipolar cells
+ganglion cells
+optic nerve
+lateral geniculate nucleus (LGN)
+lateral inhibition
+edge enhancement
+Mach band
+single-cell recording
+receptive field
+center-surround cells
+Area V1
+parallel processing
+serial processing
+P cells
+M cells
+parvocellular cells
+magnocellular cells
+what system
+where system
+binding problem
+neural synchrony
+conjunction errors
+Necker cube
+reversible figure
+figure/ground organization
+Gestalt principles
+visual features
+perceptual constancy
+size constancy
+shape constancy
+brightness constancy
+unconscious inference
+distance cues
+binocular disparity
+monocular distance cues
+pictorial cues
+interposition
+linear perspective
+motion parallax
+optic flow

@@ -1,0 +1,27 @@
+bottom-up processing
+top-down processing
+visual search task
+integrative agnosia
+tachistoscope
+mask
+priming
+repetition priming
+word-superiority effect (WSE)
+well-formedness
+feature nets
+activation level
+response threshold
+recency
+frequency
+bigram detectors
+local representation
+distributed representation
+excitatory connections
+inhibitory connections
+recognition by components (RBC) model
+geons
+viewpoint independent recognition
+viewpoint-dependent recognition
+prosopagnosia
+inversion effect
+holistic perception

@@ -1,0 +1,68 @@
+amygdala
+autonomic nervous system
+basal ganglia
+brainstem
+central nervous system
+cerebellum
+cerebrospinal fluid (CSF)
+cranial nerves
+dorsal
+dorsal root ganglia
+forebrain
+gray matter
+hindbrain
+hippocampus
+hypothalamus
+inferior colliculus
+limbic system
+medulla
+meninges
+midbrain
+neuroanatomy
+nucleus basalis
+parasympathetic nervous system
+peripheral nervous system (PNS)
+pituitary gland
+pons
+somatic nervous system
+spinal cord
+superior colliculus
+sympathetic nervous system
+tectum
+tegmentum
+thalamus
+ventral
+ventricles
+white matter
+anterior commissure
+binding problem
+central sulcus
+cerebral cortex
+columns
+corpus callosum
+delayed-response task
+frontal lobe
+Klüver-Bucy syndrome
+laminae
+occipital lobe
+parietal lobe
+postcentral gyrus
+precentral gyrus
+prefrontal cortex
+prefrontal lobotomy
+primates
+temporal lobe
+ablation
+computerized axial tomography (CT or CAT scan)
+electroencephalograph (EEG)
+lesion
+evoked potentials or evoked responses
+functional magnetic resonance imaging (fMRI)
+lesion
+magnetic resonance imaging (MRI)
+magnetoencephalograph (MEG)
+optogenetics
+phrenology
+positron-emission tomography (PET)
+stereotaxic instrument
+transcranial magnetic stimulation (TMS)
