@@ -1,0 +1,56 @@
+amygdala
+prefrontal cortex
+hindbrain
+cerebellum
+midbrain
+forebrain
+cortex
+convolutions
+longitudinal fissure
+cerebral hemisphere
+frontal lobes
+central fissure
+parietal lobes
+lateral fissure
+temporal lobes
+occipital lobes
+subcortical structures
+thalamus
+hypothalamus
+limbic system
+hippocampus
+commisures
+corpus callosum
+lesion
+neuroimaging techniques
+computerized axial tomography (CT scans)
+positron emission tomography (PET scans)
+magnetic resonance imaging (MRI scans)
+functional magnetic resonance imaging (fMRI scans)
+electroencephalogram (EEG)
+event-related potentials
+fusiform face area (FFA)
+transcranial magnetic stimulation (TMS)
+localization of function
+primary motor projection areas
+primary sensory projection areas
+contralateral control
+association cortex
+apraxias
+agnosias
+neglect syndrome
+aphasia
+neurons
+glia
+cell body
+dendrites
+axon
+neurotransmitter
+synapse
+presynaptic membrane
+postsynaptic membrane
+threshold
+action potential
+myelin sheath
+all-or-none law
+coding
