@@ -1,0 +1,16 @@
+family resemblance
+prototype theory
+graded membership
+sentence verification task
+production task
+rating task
+basic-level categorization
+exemplar-based reasoning
+typicality
+anomia
+propositions
+local representations
+connectionist networks
+distributed representations
+parallel distributed processing (PDP)
+connection weights
